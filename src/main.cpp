@@ -182,8 +182,8 @@ auto generate_random_matrix(std::size_t rows, std::size_t cols, double range)
 }
 
 void run_matrix_benchmark() {
-  constexpr std::size_t MATRIX_SIZE{128};
-  constexpr int NUM_RUNS{200};
+  constexpr std::size_t MATRIX_SIZE{512};
+  constexpr int NUM_RUNS{1000};
   constexpr double RANGE{10};
 
   std::cout << "Generating random data...\n";
